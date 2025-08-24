@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="rps.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ROCK PAPER SCISSOR</h1>
+
+        
+        <div class="board">
+            <div class="cell" id="playerCell"></div>
+            <div class="cell" id="computerCell"></div>
+        </div>
+
+        
+        <div class="choices">
+            <button class="choice" data-choice="✊">✊</button>
+            <button class="choice" data-choice="✋">✋</button>
+            <button class="choice" data-choice="✌️">✌️</button>
+        </div>
+
+        <button id="restartButton">Reset</button>
+        <p class="winning-message" id="winningMessage"></p>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
